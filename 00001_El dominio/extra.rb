@@ -4,7 +4,7 @@ class ReunionDemocratica
   end
   def votar!(tema, usuario)
     tema.sumar_voto!
-    #usuario.restar_voto_disponible!
+    usuario.restar_voto_disponible!
   end
 end
 
