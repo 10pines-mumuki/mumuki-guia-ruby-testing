@@ -1,0 +1,1 @@
+Podrías agregar la validación en `Usuario#restar_voto_disponible`
