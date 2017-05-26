@@ -15,6 +15,9 @@ class Usuario
   def restar_voto_disponible!
     @votos_disponibles -= 1
   end
+  def cantidad_votos_disponibles
+    @votos_disponibles
+  end
 end
 
 class Tema
