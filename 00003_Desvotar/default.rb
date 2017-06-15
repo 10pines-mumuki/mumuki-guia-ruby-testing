@@ -30,13 +30,15 @@ end
 
 class Tema
   def initialize
-    @votos = 0
+    @votantes = []
   end
-  def sumar_voto!
-    @votos += 1
+  def sumar_voto!(usuario)
+    @votantes << usuario
   end
-  def restar_voto!
-    @votos -= 1
+  def restar_voto!(usuario)
+    if(@votantes.contains?(usuario))
+      @votantes.delete_at(@votantes.find_index(usuario))
+    end
   end
 end
 
