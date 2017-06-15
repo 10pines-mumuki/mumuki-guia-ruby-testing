@@ -2,6 +2,6 @@ Tenemos el siguiente dominio: hay una objeto llamado `reunionDemocratica` que en
 
 Cada `Usuario` solo debe votar hasta 3 veces. 
 
-Tenemos los objetos `unTema`, `unUsuario` y `unaReunionDemocratica` ya listos. ¡Podés probarlos en la consola!
+Tenemos los objetos `un_tema`, `un_usuario` y `una_reunion_democratica` ya listos. ¡Podés probarlos en la consola!
 
 > El código ya está implementado, pero tiene un problema. ¿Podés averiguar cuál?
