@@ -1,0 +1,1 @@
+¿Tiró error, no? Justamente estamos testeando lo que habíamos detectado que estaba roto. Vamos a corregirlo en los siguientes ejercicios.

@@ -24,6 +24,9 @@ class Tema
   def sumar_voto!
     @votos += 1
   end
+  def votos
+    @votos
+  end
 end
 
 una_reunion_democratica = ReunionDemocratica.new
