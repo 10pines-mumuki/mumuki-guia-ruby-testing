@@ -4,4 +4,8 @@ Ahora bien, si a nosotros nos gusta programar... ¿no podríamos programar las p
 
 Si, podemos. A toda esa rama de la programación se la conoce como _Automatic Testing_ o _Tests automatizados_.
 
+En particular, a los tests que prueban una parte pequeña de nuestro sistema, se los conoce como _Tests Unitarios_. 
+
+En esta guía vamos a trabajar entonces con _tests unitarios automatizados_. 
+
 **¡Veamos de qué se trata!**
