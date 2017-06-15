@@ -1,7 +1,4 @@
 class ReunionDemocratica
-  def initialize
-    @temas = []
-  end
   def votar!(tema, usuario)
     tema.sumar_voto!
     usuario.restar_voto_disponible!
