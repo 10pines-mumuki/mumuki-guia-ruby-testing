@@ -1,7 +1,4 @@
 class ReunionDemocratica
-  def initialize
-    @temas = []
-  end
   def votar!(tema, usuario)
     if(usuario.cantidad_votos_disponibles > 0)
       tema.sumar_voto!
@@ -10,7 +7,6 @@ class ReunionDemocratica
       raise StandardError.new('El usuario no tiene mas votos')
     end
   end
-  
   def desvotar!(tema, usuario)
     tema.restar_voto!(usuario)
     usuario.sumar_voto_disponible!
