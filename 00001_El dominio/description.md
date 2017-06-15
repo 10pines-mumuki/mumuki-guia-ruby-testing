@@ -2,6 +2,6 @@ Tenemos el siguiente dominio: hay una objeto llamado `reunionDemocratica` que en
 
 ¡Podés probarlos en la consola!
 
-Cada `Usuario` puede votar hasta 3 veces. 
+Cada `Usuario` solo debe votar hasta 3 veces. 
 
-El código ya está implementado, pero tiene un problema. ¿Podés averiguar cuál?
+> El código ya está implementado, pero tiene un problema. ¿Podés averiguar cuál?
