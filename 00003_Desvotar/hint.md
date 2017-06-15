@@ -1,1 +1,1 @@
-tema.sumar_voto!(usuario)
+Probá el `votar!` en `ReunionDemocrática`. Parece que algo se volvió a romper, no?
