@@ -29,6 +29,6 @@ class Tema
   end
 end
 
-reunionDemocratica = ReunionDemocratica.new
-usuario = Usuario.new
-tema = Tema.new
+unaReunionDemocratica = ReunionDemocratica.new
+unUsuario = Usuario.new
+unTema = Tema.new
