@@ -1,6 +1,7 @@
 ¡Felicitaciones! Tu suite de tests ya va tomando forma.
 
 Para resumir, lo que vimos hasta ahora fue:
+
 * Para qué nos sirven los tests automáticos y unitarios. Vimos que es bastante tedioso probar **todo** nuestro código manualmente cada vez que agregamos o arreglamos algo. 
 * Aprendimos cómo hacer eso. Vimos que los tests se desarrollan con cosas que ya conocemos: clases y métodos
 * Vimos que los tests sirven para ser corridos. Vimos que pueden pasar bien, fallar o dar error. 
