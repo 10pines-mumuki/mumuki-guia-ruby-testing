@@ -1,0 +1,3 @@
+Mmm, hay mucho código repetido con el test anterior, ¿no? 
+
+Teneme paciencia, quizás haya alguna manera de solucionarlo...

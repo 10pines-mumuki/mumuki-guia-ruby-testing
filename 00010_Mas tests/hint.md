@@ -1,0 +1,1 @@
+Al igual que con el test anterior, podrías crear un usuario, un tema y una reunion democrática, llamar al `votar!` de la reunion democrática y validar que el usuario ahora tenga un voto menos.
