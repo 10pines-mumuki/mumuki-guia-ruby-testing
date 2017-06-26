@@ -1,6 +1,6 @@
-Tenemos el siguiente dominio: hay una objeto llamado `reunionDemocratica` que entiende el mensaje `votar!`, recibiendo un tema y un usuario. Cada vez que se vota un tema, al objeto `tema` se le suma un voto y al objeto usuario se le resta un voto disponible.
+Tenemos una **reunion democratica** que entiende el mensaje `votar!`, recibiendo un tema y un usuario. Cada vez que se vota un tema, se le suma un voto al **tema** y se le resta un voto disponible al **usuario**.
 
-Cada `Usuario` solo debe votar hasta 3 veces. 
+Cada `Usuario` sólo puede votar hasta 3 veces. 
 
 Tenemos los objetos `un_tema`, `un_usuario` y `una_reunion_democratica` ya listos. ¡Podés probarlos en la consola!
 
