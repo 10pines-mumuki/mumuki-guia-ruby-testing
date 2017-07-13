@@ -1,10 +1,12 @@
 ¡Hola! 
 
-¡Ya sabés escribir programas en objetos!, pero... ¿Cómo sabés que tu programa hace lo que vos querés que haga? ¿Cómo encontras los errores que puede tener?
+En esta y próximas lecciones vamos a empezar a hacer las cosas mas profesional y automáticamente.
 
-Podemos hacer pruebas a mano, pero como vamos a ver mas adelante, eso es aburrido, repetitivo y es muy fácil cometer errores. ¿No podría hacerlo otro?
+Ya vimos que si bien se puede llegar a hacer algo manual, eso es aburrido, repetitivo y es muy fácil cometer errores. ¿No podría hacerlo otro?
 
-¡Por supuesto! Las computadoras son perfectas para hacer cosas repetitivas. 
+¡Si! Las computadoras son perfectas para hacer cosas repetitivas :wink:. 
 
-En esta lección vamos a aprender a programar esas pruebas, a las que a partir de ahora llamaremos **tests**, que son fundamentales en cualquier programa porque *errar es humano, pero testear es divino*.
+Si bien ya tenés algunas ideas de por dónde viene la mano de los tests, acá es donde vamos ponermos un poquito mas formales y te vamos a mostrar al testing automatizado de una forma mas realista, con conceptos y problemáticas que suceden en la construcción de la mayoría de los sistemas que se desarrollam en la industria, pero... ¿Cómo sabés que tu programa hace lo que vos querés que haga? ¿Cómo encontras los errores que puede tener?
+
+¡Empecemos!
 
