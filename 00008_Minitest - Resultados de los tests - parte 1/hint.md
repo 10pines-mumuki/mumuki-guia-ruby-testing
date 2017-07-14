@@ -1,1 +1,1 @@
-Observá la firma de `Tema#sumar_voto!` ¿Se está usando correctamente en `ReunionDemocratica#votar!`?
+Observá la firma de `Tema#sumar_voto!` ¿Se está usando correctamente en `Asamblea#votar!`?
