@@ -1,4 +1,4 @@
-class ReunionDemocratica
+class Asamblea
   def votar!(tema, usuario)
     if(usuario.cantidad_votos_disponibles > 0)
       tema.sumar_voto!
@@ -13,7 +13,7 @@ class ReunionDemocratica
   end
 end
 
-class Usuario
+class Asambleista
   def initialize
     @votos_disponibles = 3
   end
@@ -45,6 +45,6 @@ class Tema
   end
 end
 
-una_reunion_democratica = ReunionDemocratica.new
-un_usuario = Usuario.new
+una_asamblea = Asamblea.new
+un_asambleista = Asambleista.new
 un_tema = Tema.new

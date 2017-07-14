@@ -1,11 +1,11 @@
-class ReunionDemocratica
+class Asamblea
   def votar!(tema, usuario)
     tema.sumar_voto!
     usuario.restar_voto_disponible!
   end
 end
 
-class Usuario
+class Asambleista
   def initialize
     @votos_disponibles = 3
   end
@@ -29,6 +29,6 @@ class Tema
   end
 end
 
-una_reunion_democratica = ReunionDemocratica.new
-un_usuario = Usuario.new
+una_asamblea = Asamblea.new
+un_asambleista = Asambleista.new
 un_tema = Tema.new
