@@ -1,41 +1,9 @@
 examples:
-  - name: 'si el código es correcto, los tests pasan'
+  - name: 'si el codigo es correcto, los tests pasan'
     fixture: |
       class Asamblea
       
       end
-      
-      class Asambleista
-        def initialize
-          @votos_disponibles = 3
-        end
-        def restar_voto_disponible!
-          @votos_disponibles -= 1
-        end
-        def sumar_voto_disponible!
-          @votos_disponibles += 1
-        end
-        def cantidad_votos_disponibles
-          @votos_disponibles
-        end
-      end
-      
-      class Tema
-        def initialize
-          @votantes = []
-        end
-        def sumar_voto!(usuario)
-          @votantes << usuario
-        end
-        def restar_voto!(usuario)
-          if(@votantes.contains?(usuario))
-            @votantes.delete_at(@votantes.find_index(usuario))
-          end
-        end
-        def votos
-          @votos
-        end
-      end    
     postconditions:
       status: passed
       
