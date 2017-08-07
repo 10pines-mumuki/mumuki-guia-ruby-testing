@@ -4,7 +4,7 @@ layout: input_right
 editor: code
 type: problem
 extra_visible: false
-language: 
+language: minitest
 teacher_info: 
 manual_evaluation: false
 choices: []
