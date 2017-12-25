@@ -1,8 +1,8 @@
 ¡Hola! 
 
-En esta y próximas lecciones vamos a empezar a hacer las cosas mas profesional y automáticamente.
+A partir de ahora vamos a empezar a hacer las cosas mas profesional y automáticamente.
 
-Ya vimos que si bien se puede llegar a hacer algo manual, eso es aburrido, repetitivo y es muy fácil cometer errores. ¿No podría hacerlo otro?
+Ya vimos que si bien se puede testear manualmente eso es aburrido, repetitivo y propenso a errores. ¿No podría hacerlo otro?
 
 ¡Si! Las computadoras son perfectas para hacer cosas repetitivas :wink:. 
 
