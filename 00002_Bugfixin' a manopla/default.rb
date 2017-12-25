@@ -12,7 +12,7 @@ class Asambleista
   def restar_voto_disponible!
     @votos_disponibles -= 1
   end
-  def cantidad_votos_disponibles
+  def votos
     @votos_disponibles
   end
 end
