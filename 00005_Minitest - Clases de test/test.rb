@@ -7,7 +7,7 @@ examples:
             tema.sumar_voto!
             asambleista.restar_voto_disponible!
           else 
-            raise StandardError.new('El usuario no tiene mas votos')
+            raise StandardError.new('El asambleista no tiene mas votos')
           end
         end
         def desvotar!(tema, asambleista)
