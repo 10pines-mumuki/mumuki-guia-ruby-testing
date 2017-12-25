@@ -1,4 +1,4 @@
-#TODO: agregar tests que chequee que el usuario 
+a#TODO: agregar tests que chequee que el usuario 
 # no pueda votar mas de 3 veces y que no haya registrado el voto la ultima vez
 
 describe "Asamblea" do 
@@ -8,7 +8,7 @@ describe "Asamblea" do
       expect(una_asamblea.votos).to eq 1
     end
     it "el tema gana un voto" do
-      expect(una_asamblea.votos).to eq 1
+      expect(un_tema.votos).to eq 1
     end
   end
   
