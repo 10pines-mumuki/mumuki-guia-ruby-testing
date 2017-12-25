@@ -1,4 +1,4 @@
-Tenemos una _asamblea_ que entiende el mensaje `votar!`, recibiendo un tema y un _asambleísta_. Cada vez que se vota un tema, se le suma un voto al _tema_ y se le resta un voto disponible al asambleísta.
+Tenemos una `Asamblea` que entiende el mensaje `votar!`, recibiendo un `Tema` y un `Asambleista`. Cada vez que se vota un tema, se le suma un voto al mismo y se le resta uno al asambleísta.
 
 Los `Asambleista`s tienen 3 votos disponibles y no pueden seguir votando cuando se quedan sin votos. 
 
