@@ -2,4 +2,6 @@ Existe una aserción para comparar valores llamada `assert_equals` (¿te suena f
 
 Podrías escribir la aserción de la siguiente forma:
 
-`assert_equals 1, tema.votos`
+```ruby
+assert_equals 1, tema.votos
+```
