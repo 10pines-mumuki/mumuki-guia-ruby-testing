@@ -1,6 +1,6 @@
 ---
 expectations:
 - binding: "*"
-  inspection: DeclaresClass:ReunionEstrategicaTest
-- binding: ReunionEstrategicaTest
+  inspection: DeclaresClass:AsambleaTest
+- binding: AsambleaTest
   inspection: Not:DeclaresMethod
