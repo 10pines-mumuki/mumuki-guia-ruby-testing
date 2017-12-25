@@ -1,8 +1,6 @@
 Listo. Escribamos nuestro primer test.
 
-**Un test es un método dentro de una clase de tests** que además **debe** tener una _aserción_,
-
-Como vimos antes, una **aserción** es una comprobación, mediante código, de que cierto comportamiento pasó o no pasó.
+**Un test es un método dentro de una clase de tests** que además **debe** tener una _aserción_. Como vimos antes, una **aserción** es una comprobación, mediante código, de que cierto comportamiento pasó o no pasó.
 
 Empecemos a probar el `votar!` de `Asamblea`.
 
