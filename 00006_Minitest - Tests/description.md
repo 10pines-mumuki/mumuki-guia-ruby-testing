@@ -1,4 +1,4 @@
-Listo. Empecemos a agregar nuestros tests.
+Listo. Escribamos nuestro primer test.
 
 **Un test es un método dentro de una clase de tests.**. Además, todos **deben** tener una _aserción_, que como vimos antes, es una comprobación, mediante código, de que cierto comportamiento pasó o no pasó. 
 
