@@ -29,6 +29,6 @@ class Tema
   end
 end
 
-una_asamblea = Asamble.new
+una_asamblea = Asamblea.new
 un_asambleista = Asambleista.new
 un_tema = Tema.new
