@@ -1,7 +1,7 @@
 class Asamblea
-  def votar!(tema, usuario)
+  def votar!(tema, asambleista)
     tema.sumar_voto!
-    usuario.restar_voto_disponible!
+    asambleista.restar_voto_disponible!
   end
 end
 
