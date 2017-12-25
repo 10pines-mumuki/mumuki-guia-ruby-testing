@@ -1,6 +1,6 @@
 class Asamblea
   def votar!(tema, asambleista)
-    if(asambleista.cantidad_votos_disponibles > 0)
+    if(asambleista.votos > 0)
       tema.sumar_voto!
       asambleista.restar_voto_disponible!
     else 
@@ -23,7 +23,7 @@ class Asambleista
   def sumar_voto_disponible!
     @votos_disponibles += 1
   end
-  def cantidad_votos_disponibles
+  def votos
     @votos_disponibles
   end
 end
