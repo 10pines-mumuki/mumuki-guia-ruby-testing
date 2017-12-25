@@ -2,7 +2,7 @@ Ok.. vemos que es bastante engorroso probar el código manualmente a medida que 
 
 Ahora bien, si a nosotros nos gusta programar... :eyeglasses: ¿no podríamos programar las pruebas de manera tal de que sea fácil y rápido saber, _en cualquier momento_,  si nuestro nuevo código funciona, y el código anterior, sigue funcionando?
 
-Si, podemos :construction_worker:. A toda esa rama  de la programación se la conoce como _Automated Testing_ o _Tests automatizados_.
+Si, podemos :construction_worker:. A toda esa rama  de la programación se la conoce como _Automated Testing_ o _Testing automatizados_.
 
 En particular, a los tests que prueban una parte pequeña de nuestro sistema, se los conoce como _Tests Unitarios_. 
 
