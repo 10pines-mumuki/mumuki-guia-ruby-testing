@@ -1,8 +1,6 @@
 Listo. Empecemos a agregar nuestros tests.
 
-**Un test es un método dentro de una clase de tests.**
-
-Además, todo test tiene una _aserción_, que como vimos antes, es una comprobación, mediante código, de que cierto comportamiento pasó o no pasó. 
+**Un test es un método dentro de una clase de tests.**. Además, todos **deben** tener una _aserción_, que como vimos antes, es una comprobación, mediante código, de que cierto comportamiento pasó o no pasó. 
 
 Empecemos a probar el `votar!` de `Asamblea`.
 
