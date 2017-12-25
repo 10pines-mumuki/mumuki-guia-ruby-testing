@@ -2,17 +2,17 @@
 
 =begin
 
-class ReunionEstrategicaTest < Minitest::Test
+class AsambleaTest < Minitest::Test
   
-  def test_votar_en_reunion_resta_un_voto_al_usuario_pasado
+  def test_votar_en_asamblea_resta_un_voto_al_usuario_pasado
     
-    usuario = Usuario.new
+    asambleista = Asambleista.new
     tema = Tema.new
-    reunion = ReunionEstrategica.new
+    asamblea = Asamblea.new
     
-    reunion.votar!(tema, usuario)
+    asamblea.votar!(tema, asambleista)
     
-    assert_equals 2, usuario.cantidad_votos_disponibles
+    assert_equals 2, asambleista.cantidad_votos_disponibles
     
   end
   
