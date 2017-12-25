@@ -1,4 +1,4 @@
-El test falló y... tiene sentido.
+El test falló. Tiene sentido, ¿no? 
 
 Nos habíamos dado cuenta de que había un error al mandar el mensaje `Asamblea#votar!`.
 

@@ -1,14 +1,14 @@
 #TODO
 =begin
-class AsambleaTest < Minitest::Test
+class ReunionEstrategicaTest < Minitest::Test
   
   def test_votar_en_reunion_suma_un_voto_al_tema_pasado
     
-    asambleista = Asambleista.new
+    usuario = Usuario.new
     tema = Tema.new
-    asamblea = Asamblea.new
+    reunion = ReunionEstrategica.new
     
-    asamblea.votar!(tema, asambleista)
+    reunion.votar!(tema, usuario)
     
     assert_equals 1, tema.votos
     

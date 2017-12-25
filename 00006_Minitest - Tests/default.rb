@@ -1,4 +1,4 @@
-class AsambleaTest < Minitest::Test
+class ReunionEstrategicaTest < Minitest::Test
   
   
 end
