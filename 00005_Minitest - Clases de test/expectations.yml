@@ -4,3 +4,5 @@ expectations:
   inspection: DeclaresClass:AsambleaTest
 - binding: AsambleaTest
   inspection: Not:DeclaresMethod
+- binding: AsambleaTest
+  inspection: Inherits:Minitest::Test
