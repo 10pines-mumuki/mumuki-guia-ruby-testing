@@ -1,5 +1,5 @@
 examples:
-    - name: 'si el codigo es correcto, los tests pasan'
+  - name: 'si el codigo es correcto, los tests pasan'
   fixture: |
     class Asamblea
       def votar!(tema, asambleista)
@@ -18,7 +18,7 @@ examples:
   postconditions:
       status: passed
 
-- name: 'si sumar voto no está implementado, deberían fallar los tests'
+  - name: 'si sumar voto no está implementado, deberían fallar los tests'
   fixture: |
     class Asamblea
       def votar!(tema, asambleista)
