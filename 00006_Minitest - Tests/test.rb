@@ -34,6 +34,5 @@ examples:
         asambleista.sumar_voto_disponible!
       end
     end
-  
   postconditions:
       status: failed
