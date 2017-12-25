@@ -4,5 +4,5 @@ Básicamente implementó el método `desvotar!` en `Asamblea`, el cual recibe, a
 
 El otro desarrollador probó su método y dijo que funcionaba correctamente. Nosotros corregimos `votar!` y vimos que funcionaba bien.
 
-> ¿Y qué pasaría si probamos los dos?
+> ¿Y qué pasaría si probamos los dos? Probá el `votar!` en `Asamblea`. 
 

@@ -1,1 +1,1 @@
-Probá el `votar!` en `Asamblea`. Parece que algo se volvió a romper, no?
+Parece que algo se volvió a romper, ¿no?
