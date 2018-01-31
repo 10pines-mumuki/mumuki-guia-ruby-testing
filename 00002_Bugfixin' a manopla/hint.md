@@ -1,1 +1,1 @@
-Podrías agregar la validación en `ReunionDemocratica#votar!`
+Podrías agregar la validación en `Asamblea#votar!`
