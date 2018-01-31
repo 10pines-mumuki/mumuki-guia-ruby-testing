@@ -11,7 +11,7 @@ choices:
   checked: false
 - value: Es una excusa mas para que nos paguen por desarrollar durante mas tiempo
   checked: false
-- value: Es **fácil y rápido** verificar en cualquier momento, que el código que ya
+- value: Es **fácil y rápido** verificar en cualquier momento que el código que ya
     tenemos y el que agregamos, sigue funcionando
   checked: true
 - value: Japón
