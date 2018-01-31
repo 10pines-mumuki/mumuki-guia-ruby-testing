@@ -38,7 +38,7 @@ class Tema
   def sumar_voto!(asambleista)
     asambleista.restar_voto_disponible!
     @votantes << asambleista
-    @votos = @votos + 1
+    @votos += 1
   end
   
   def restar_voto!(asambleista)
