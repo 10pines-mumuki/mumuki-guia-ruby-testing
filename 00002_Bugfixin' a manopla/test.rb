@@ -24,7 +24,7 @@ describe "Asamblea" do
   
   describe "si el asambleista vota tres veces" do 
     before do
-      5.times { subject }
+      3.times { subject }
     end
 
     it "la votación falla por lo que el asambleista no pierde votos" do 
