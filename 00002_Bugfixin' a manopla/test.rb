@@ -24,16 +24,16 @@ describe "Asamblea" do
   
   describe "si el asambleista vota tres veces" do 
     before do
-      3.times { subject }
+      3.times { una_asamblea.votar! un_tema, un_asambleista }
     end
 
     it "la votación falla por lo que el asambleista no pierde votos" do 
-      expect { subject  }.to raise_error
+      expect { una_asamblea.votar! un_tema, un_asambleista  }.to raise_error
       expect(una_asambleista.votos_disponibles).to eq 0
     end
     
     it "la votación falla por lo que el tema no gana votos" do 
-      expect { subject }.to raise_error
+      expect { una_asamblea.votar! un_tema, un_asambleista }.to raise_error
       expect(un_tema.votos).to eq 3
     end
   end
