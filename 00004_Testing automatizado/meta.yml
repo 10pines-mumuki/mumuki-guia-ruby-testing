@@ -14,7 +14,3 @@ choices:
 - value: Es **fácil y rápido** verificar en cualquier momento que el código que ya
     tenemos y el que agregamos, sigue funcionando
   checked: true
-- value: Japón
-  checked: false
-- value: Todas las anteriores
-  checked: false
