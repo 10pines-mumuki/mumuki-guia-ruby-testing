@@ -16,7 +16,7 @@ examples:
   postconditions:
       status: passed
       
-- name: 'si el hay un problema con los temas, debería fallar el ejercicio'
+- name: 'si el hay un problema con los temas al desvotar, debería fallar el ejercicio'
   fixture: |
     class Asamblea
       def votar!(tema, asambleista)
@@ -34,7 +34,7 @@ examples:
   postconditions:
       status: failed
       
-- name: 'si el hay un problema con los asambleistas, debería fallar el ejercicio'
+- name: 'si el hay un problema con los asambleistas al desvotar, debería fallar el ejercicio'
   fixture: |
     class Asamblea
       def votar!(tema, asambleista)
