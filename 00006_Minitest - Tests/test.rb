@@ -24,8 +24,8 @@ examples:
         raise 'El asambleista no tiene mas votos'if asambleista.votos <= 0
         
         tema.sumar_voto! asambleista
-        asambleista.restar_voto_disponible!
-        asambleista.restar_voto_disponible!
+        tema.sumar_voto! asambleista
+        tema.sumar_voto! asambleista
         asambleista.restar_voto_disponible!
       end
       
