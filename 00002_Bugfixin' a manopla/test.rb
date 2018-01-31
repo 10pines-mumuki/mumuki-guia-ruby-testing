@@ -29,7 +29,7 @@ describe "Asamblea" do
 
     it "la votación falla por lo que el asambleista no pierde votos" do 
       expect { una_asamblea.votar! un_tema, un_asambleista  }.to raise_error
-      expect(una_asambleista.votos_disponibles).to eq 0
+      expect(un_asambleista.votos_disponibles).to eq 0
     end
     
     it "la votación falla por lo que el tema no gana votos" do 
