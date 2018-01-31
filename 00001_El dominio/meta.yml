@@ -3,6 +3,6 @@ tags: []
 layout: input_right
 editor: code
 type: playground
-extra_visible: false
+extra_visible: true
 manual_evaluation: false
 choices: []
