@@ -1,8 +1,20 @@
 ---
 tags: []
 layout: input_bottom
-editor: code
-type: reading
+editor: multiple_choice
+type: problem
 extra_visible: false
+language: text
 manual_evaluation: false
-choices: []
+choices:
+- value: El código queda mas bonito
+  checked: false
+- value: Es una excusa mas para que nos paguen por desarrollar durante mas tiempo
+  checked: false
+- value: Es *fácil y rápido* verificar en cualquier momento, que el código que ya
+    tenemos y el que agregamos, sigue funcionando
+  checked: true
+- value: Japón
+  checked: false
+- value: Todas las anteriores
+  checked: false
