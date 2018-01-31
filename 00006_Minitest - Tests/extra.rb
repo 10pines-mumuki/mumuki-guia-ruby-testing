@@ -23,7 +23,7 @@ class Tema
     @votos = @votos + 1
   end
   def restar_voto!(asambleista)
-    if(@votantes.includes?(asambleista))
+    if(@votantes.include?(asambleista))
       @votantes.delete_at(@votantes.find_index(asambleista))
     end
   end
