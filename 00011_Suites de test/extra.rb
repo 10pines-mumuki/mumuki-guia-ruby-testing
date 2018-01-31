@@ -20,6 +20,19 @@ class AsambleaTest < Minitest::Test
   end
 end
 
+class Asamblea
+  def votar!(tema, asambleista)
+    raise 'El asambleista no tiene mas votos'if asambleista.votos <= 0
+    
+    tema.sumar_voto! asambleista
+  end
+  
+  def desvotar!(tema, asambleista)
+    tema.restar_voto!(asambleista)
+    asambleista.sumar_voto_disponible!
+  end
+end
+
 class Asambleista
   def initialize
     @votos_disponibles = 3
