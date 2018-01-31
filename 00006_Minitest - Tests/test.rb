@@ -21,7 +21,7 @@ examples:
   fixture: |
     class Asamblea
       def votar!(tema, asambleista)
-        raise 'El asambleista no tiene mas votos'if asambleista.votos <= -2
+        raise 'El asambleista no tiene mas votos'if asambleista.votos <= 2
         
         tema.sumar_voto! asambleista
         asambleista.restar_voto_disponible!
