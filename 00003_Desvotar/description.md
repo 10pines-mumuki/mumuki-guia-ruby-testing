@@ -2,7 +2,7 @@ Otra desarrolladora, Lorena, acaba de agregar una feature mientras nosotros corr
 
 Básicamente implementó el método `desvotar!` en `Asamblea`, el cual recibe, al igual que el otro método, un tema y un usuario, y si el usuario votó en ese tema, le devuelve un voto disponible y se lo saca al tema.
 
-El otro desarrollador probó su método y dijo que funcionaba correctamente. Nosotros corregimos `votar!` y vimos que funcionaba bien.
+Lorena probó su método y dijo que funcionaba correctamente. Nosotros corregimos `votar!` y vimos que funcionaba bien.
 
 > ¿Y qué pasaría si probamos los dos? Probá el `votar!` en `Asamblea`. 
 
