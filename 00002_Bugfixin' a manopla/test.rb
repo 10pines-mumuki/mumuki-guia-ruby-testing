@@ -1,4 +1,8 @@
 describe "Asamblea" do 
+  let(:un_tema) { Tema.new }
+  let(:un_asambleista) { Asambleista.new }
+  let(:una_asamblea) { Asamblea.new }
+  
   subject do
     una_asamblea.votar! un_tema, un_asambleista
   end

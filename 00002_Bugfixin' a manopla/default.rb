@@ -28,7 +28,3 @@ class Tema
     @votos
   end
 end
-
-una_asamblea = Asamblea.new
-un_asambleista = Asambleista.new
-un_tema = Tema.new
