@@ -6,6 +6,6 @@ Si, podemos :construction_worker:. A toda esa rama  de la programación se la co
 
 En particular, a los tests que prueban una parte pequeña de nuestro sistema, se los conoce como _Tests Unitarios_. 
 
-En esta guía vamos a trabajar entonces con _tests unitarios automatizados_. 
+Acá vamos a trabajar entonces con _tests automatizados_. 
 
 **¡Veamos de qué se trata!**
