@@ -1,11 +1,9 @@
 class Asamblea
   def votar!(tema, asambleista)
-    if(asambleista.votos > 0)
-      tema.sumar_voto!
-      asambleista.restar_voto_disponible!
-    else 
-      raise StandardError.new('El asambleista no tiene mas votos')
-    end
+    raise 'El asambleista no tiene mas votos' if asambleista.votos <= 0
+    
+    tema.sumar_voto!
+    asambleista.restar_voto_disponible!
   end
   def desvotar!(tema, asambleista)
     tema.restar_voto!(asambleista)
