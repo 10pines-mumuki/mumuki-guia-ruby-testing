@@ -3,5 +3,5 @@ Existe una aserción para comparar valores llamada `assert_equals` (¿te suena f
 Podrías escribir la aserción de la siguiente forma:
 
 ```ruby
-assert_equals 1, tema.votos
+assert_equal 1, tema.votos
 ```
