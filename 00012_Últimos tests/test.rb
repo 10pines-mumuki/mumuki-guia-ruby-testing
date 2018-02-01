@@ -43,7 +43,7 @@ examples:
         raise 'El asambleista no tiene mas votos'if asambleista.votos <= 0
         
         tema.sumar_voto! asambleista
-        asambleista.restar_voto_disponible!
+        asambleista.restar_voto_disponible! # Este es el problema porque el mensaje del tema tmb resta
       end
       
       def desvotar!(tema, asambleista)
@@ -54,7 +54,7 @@ examples:
   postconditions:
       status: failed
       
-- name: 'si el hay un problema con los temas al desvotar, debería fallar el ejercicio'
+- name: 'si hay un problema con los temas al desvotar, debería fallar el ejercicio'
   fixture: |
     class Asamblea
       def votar!(tema, asambleista)
@@ -72,7 +72,7 @@ examples:
   postconditions:
       status: failed
       
-- name: 'si el hay un problema con los asambleistas al desvotar, debería fallar el ejercicio'
+- name: 'si hay un problema con los asambleistas al desvotar, debería fallar el ejercicio'
   fixture: |
     class Asamblea
       def votar!(tema, asambleista)
