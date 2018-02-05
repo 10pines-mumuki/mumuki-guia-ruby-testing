@@ -1,0 +1,1 @@
+Pequeño detalle: tené en cuenta que para poder desvotar, el tema tiene que tener al menos un voto, y el asambleista tiene que haber votado en ese tema. 
