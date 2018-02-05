@@ -52,6 +52,7 @@ class Tema
     if(@votantes.include?(asambleista))
       @votantes.delete_at(@votantes.find_index(asambleista))
     end
+    @votos -= 1
   end
   def votos
     @votos
