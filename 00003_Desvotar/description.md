@@ -4,5 +4,5 @@ Básicamente implementó el método `desvotar!` en `Asamblea`, el cual recibe, a
 
 Lorena probó su método y dijo que funcionaba correctamente. Paralelamente, nosotros acabamos de corregir el método `votar!` y vimos que funcionaba bien.
 
-> Uhm.. igual acabamos de decir que no había que confiar. Probá el `votar!(tema, asambleista)` en `Asamblea`. 
+> Uhm.. igual acabamos de decir que no había que confiar. Probá el `una_asamblea.votar!(un_tema, una_asambleista)`. 
 
