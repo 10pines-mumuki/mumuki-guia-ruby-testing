@@ -16,7 +16,7 @@ end
 class Tema
   def initialize
     @votantes = []
-    @votos = 1
+    @votos = 0
   end
   def sumar_voto!(asambleista)
     asambleista.restar_voto_disponible!
