@@ -1,1 +1,1 @@
-Parece que algo se volvió a romper, ¿no?
+Parece que algo se volvió a romper, ¿no? Si.. pasá al siguiente ejercicio.
