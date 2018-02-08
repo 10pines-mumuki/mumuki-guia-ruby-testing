@@ -17,7 +17,7 @@ examples:
   postconditions:
       status: passed
       
-- name: 'si el assert está mal, debería fallar el ejercicio'
+- name: 'si la asamblea suma de mas, debería fallar el tesst'
   fixture: |
     class Asamblea
       def votar!(tema, asambleista)
@@ -37,14 +37,15 @@ examples:
   postconditions:
       status: failed
       
-- name: 'si el assert está mal, debería fallar el ejercicio'
+- name: 'si la asamble resta de mas, debería fallar el test'
   fixture: |
     class Asamblea
       def votar!(tema, asambleista)
         raise 'El asambleista no tiene mas votos'if asambleista.votos <= 0
         
         tema.sumar_voto! asambleista
-        asambleista.restar_voto_disponible! # Este es el problema porque el mensaje del tema tmb resta
+        asambleista.restar_voto_disponible!
+        asambleista.restar_voto_disponible!
       end
       
       def desvotar!(tema, asambleista)
