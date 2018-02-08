@@ -56,7 +56,7 @@ examples:
   postconditions:
       status: failed
       
-- name: 'si hay un problema con los temas al desvotar, debería fallar el ejercicio'
+- name: 'si la asamble resta de menos en desvotar, debería fallar el test'
   fixture: |
     class Asamblea
       def votar!(tema, asambleista)
@@ -66,14 +66,13 @@ examples:
       end
       
       def desvotar!(tema, asambleista)
-        #tema.restar_voto!(asambleista)
         asambleista.sumar_voto_disponible!
       end
     end
   postconditions:
       status: failed
       
-- name: 'si hay un problema con los asambleistas al desvotar, debería fallar el ejercicio'
+- name: 'si la asamblea suma de menos, deberia fallar el test'
   fixture: |
     class Asamblea
       def votar!(tema, asambleista)
@@ -84,7 +83,6 @@ examples:
       
       def desvotar!(tema, asambleista)
         tema.restar_voto!(asambleista)
-        #asambleista.sumar_voto_disponible!
       end
     end
   postconditions:
