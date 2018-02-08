@@ -19,7 +19,6 @@ class Tema
     @votos = 0
   end
   def sumar_voto!(asambleista)
-    asambleista.restar_voto_disponible!
     @votantes << asambleista
     @votos = @votos + 1
   end

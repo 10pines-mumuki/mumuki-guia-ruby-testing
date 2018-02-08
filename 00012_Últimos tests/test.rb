@@ -6,6 +6,7 @@ examples:
         raise 'El asambleista no tiene mas votos'if asambleista.votos <= 0
         
         tema.sumar_voto! asambleista
+        asambleista.restar_voto_disponible!
       end
       
       def desvotar!(tema, asambleista)
@@ -61,7 +62,6 @@ examples:
         raise 'El asambleista no tiene mas votos'if asambleista.votos <= 0
         
         tema.sumar_voto! asambleista
-        asambleista.restar_voto_disponible!
       end
       
       def desvotar!(tema, asambleista)
