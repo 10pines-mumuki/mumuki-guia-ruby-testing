@@ -96,6 +96,7 @@ examples:
     class Asamblea
       def votar!(tema, asambleista)
         raise 'El asambleista no tiene mas votos'if asambleista.votos <= 0
+
         tema.sumar_voto!
         asambleista.restar_voto_disponible!
       end
