@@ -17,7 +17,7 @@ examples:
   postconditions:
       status: passed
       
-- name: 'si la asamblea suma de mas, debería fallar el tesst'
+- name: 'si la asamblea suma de mas, debería fallar el test'
   fixture: |
     class Asamblea
       def votar!(tema, asambleista)
