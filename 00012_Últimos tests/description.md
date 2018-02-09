@@ -1,4 +1,4 @@
-Como último desafío, podemos agregarle algunos tests al método implementado por Lorena: `Asamblea#desvotar(tema, asamblea)!`.
+Como último desafío, podemos agregarle algunos tests al método implementado por Lorena: `Asamblea#desvotar!(tema, asamblea)`.
 
 Podemos testear que si se llama a ese mensaje, el asambleista recupera un voto, y el tema lo pierde.
 
