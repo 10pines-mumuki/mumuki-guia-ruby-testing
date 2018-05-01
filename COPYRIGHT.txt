@@ -1,4 +1,4 @@
-Copyright 10Pines and contributors
+Copyright 10Pines SRL and contributors
 
 This content consists of voluntary contributions made by many
 individuals. For exact contribution history, see its revision history
