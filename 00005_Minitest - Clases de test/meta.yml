@@ -7,3 +7,4 @@ extra_visible: false
 language: minitest
 manual_evaluation: false
 choices: []
+name: Minitest - Clases de test
